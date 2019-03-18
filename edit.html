@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <title>Edit</title>
+    <link rel="stylesheet" href="./assets/styles/foundation.css"/>
+    <link rel="stylesheet" href="./assets/styles/app.css"/>
+  </head>
+  <body>
+    <div class="wrapper">
+            <header class="header">
+              <div class="container">
+                <nav class="navbar navbar-expand-lg">
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#headerHamburger" aria-controls="headerHamburger" aria-expanded="false" aria-label="Toggle navigation">
+                    <div class="hamburger-icon"><span></span><span></span><span></span><span></span></div>
+                  </button>
+                  <div class="collapse navbar-collapse" id="headerHamburger">
+                    <ul class="navbar-nav">
+                      <li class="nav-item"><a class="nav-link text-uppercase" href="#">anasayfa</a></li>
+                      <li class="nav-item"><a class="nav-link text-uppercase" href="#">Düzenle</a></li>
+                      <li class="nav-item"><a class="nav-link text-uppercase" href="#">yardım</a></li>
+                    </ul>
+                  </div>
+                  <div class="header__logo"><a class="navbar-brand" href="#"><img src="assets/img/logo/logo.svg" alt="Logo"/></a></div>
+                  <div class="header__btn"><a class="btn text-uppercase" href="#">giriş</a></div>
+                </nav>
+              </div>
+            </header>
+      <main class="main" role="main">
+        <section class="section edit">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-7 col-lg-6 col-12">
+                <div class="home__tags-wrap">
+                  <div class="home__tags-head">
+                    <p>Eklenen Kelimeler</p>
+                  </div>
+                  <ul class="home__tags-list">
+                    <li class="home__tags-item">
+                      <div class="home__tags-item-wrap"><span class="text-uppercase">Hayvancılık </span><img class="close" src="assets/img/icons/shape.svg" alt="Close Icon"/></div>
+                    </li>
+                    <li class="home__tags-item">
+                      <div class="home__tags-item-wrap"><span class="text-uppercase">Sulama </span><img class="close" src="assets/img/icons/shape.svg" alt="Close Icon"/></div>
+                    </li>
+                    <li class="home__tags-item">
+                      <div class="home__tags-item-wrap"><span class="text-uppercase">Tarım  </span><img class="close" src="assets/img/icons/shape.svg" alt="Close Icon"/></div>
+                    </li>
+                  </ul>
+                  <div class="home__tags-body-wrap">
+                    <form class="home__left-form">
+                      <div class="form-group">
+                        <div class="input-group">
+                          <input class="form-control" type="text" aria-describedby="homeLeftAddon" placeholder="Anahtar Kelime"/>
+                          <div class="input-group-prepend">
+                            <button class="input-group-text text-uppercase" type="submit" id="homeLeftAddon">EKLE </button>
+                          </div>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-5 col-lg-6 col-12">
+                <div class="edit__right-wrap">
+                  <div class="edit__right-text">
+                    <div class="edit__right-head">
+                      <div class="edit__right-head-text">
+                        <p>3 anahtar kelime için aylık ödemeniz gereken miktar: 30TL</p>
+                      </div>
+                      <div class="edit__right-head-desc">
+                        <p>Bir anahtar kelime için aylık 10TL ödeme alıyoruz.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="edit__right-links"><a class="btn text-uppercase" href="#">Abonelik Güncelle</a><a class="under" href="#">Abonelik Sonlandır    </a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+            <footer class="footer">
+              <div class="container">
+                <div class="row">
+                  <div class="col-12">
+                    <div class="footer__logo text-center"><a href="#"><img src="assets/img/logo/logo-white.svg" alt="Logo"/></a></div>
+                    <div class="footer__text text-center">
+                      <p>2019 Tüm Hakları Saklıdır. Gizlilik, Kullanım ve Telif Hakları bildiriminde belirtilen kurallar çerçevesinde hizmet sunulmaktadır.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </footer>
+    </div>
+    <script src="./assets/js/foundation.js"></script>
+    <script src="./assets/js/app.js"></script>
+  </body>
+</html>

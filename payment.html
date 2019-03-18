@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <title>Payment</title>
+    <link rel="stylesheet" href="./assets/styles/foundation.css"/>
+    <link rel="stylesheet" href="./assets/styles/app.css"/>
+  </head>
+  <body>
+    <div class="wrapper">
+            <header class="header">
+              <div class="container">
+                <nav class="navbar navbar-expand-lg">
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#headerHamburger" aria-controls="headerHamburger" aria-expanded="false" aria-label="Toggle navigation">
+                    <div class="hamburger-icon"><span></span><span></span><span></span><span></span></div>
+                  </button>
+                  <div class="collapse navbar-collapse" id="headerHamburger">
+                    <ul class="navbar-nav">
+                      <li class="nav-item"><a class="nav-link text-uppercase" href="#">anasayfa</a></li>
+                      <li class="nav-item"><a class="nav-link text-uppercase" href="#">Düzenle</a></li>
+                      <li class="nav-item"><a class="nav-link text-uppercase" href="#">yardım</a></li>
+                    </ul>
+                  </div>
+                  <div class="header__logo"><a class="navbar-brand" href="#"><img src="assets/img/logo/logo.svg" alt="Logo"/></a></div>
+                  <div class="header__btn"><a class="btn text-uppercase" href="#">giriş</a></div>
+                </nav>
+              </div>
+            </header>
+      <main class="main" role="main">
+        <section class="section payment">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <div class="payment__wrap">
+                  <form class="payment__form text-center">
+                    <div class="form-row">
+                      <div class="payment__form-head">
+                        <div class="payment__form-head-text">
+                          <p>Aylık ödeme miktarı 30TL  </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form-row">
+                      <input type="text" placeholder="Isim/Soyad"/>
+                    </div>
+                    <div class="form-row">
+                      <input type="text" placeholder="Kredi Kartı  "/>
+                    </div>
+                    <div class="form-row">
+                      <div class="form-group col-lg-7 col-12">
+                        <select>
+                          <option selected="selected">Son Kullanma Tarihi</option>
+                          <option>Son Kullanma Tarihi 2</option>
+                          <option>Son Kullanma Tarihi 3</option>
+                        </select>
+                      </div>
+                      <div class="form-group col-lg-5 col-12">
+                        <input type="number" placeholder="CVC"/>
+                      </div>
+                    </div>
+                    <div class="payment__form-btn">
+                      <button class="text-uppercase" type="submit">Aylık ödeme Al</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+            <footer class="footer">
+              <div class="container">
+                <div class="row">
+                  <div class="col-12">
+                    <div class="footer__logo text-center"><a href="#"><img src="assets/img/logo/logo-white.svg" alt="Logo"/></a></div>
+                    <div class="footer__text text-center">
+                      <p>2019 Tüm Hakları Saklıdır. Gizlilik, Kullanım ve Telif Hakları bildiriminde belirtilen kurallar çerçevesinde hizmet sunulmaktadır.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </footer>
+    </div>
+    <script src="./assets/js/foundation.js"></script>
+    <script src="./assets/js/app.js"></script>
+  </body>
+</html>
